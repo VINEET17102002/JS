@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Customizable T-shirts</title>
+        <link rel="icon" type="image/x-icon" href="5.webp">
+
+        <style>
+            button{
+              background-color:cornflowerblue;
+              color :white;
+              font-size:larger;
+              }
+
+              button:hover{
+                color:red;
+              }
+
+
+              .bgcolor{
+                background-image:linear-gradient(to right,orange,white,green);
+              }
+
+              input{
+                background-color:#5DADE2;
+                border:2px solid black;
+                color:bisque;
+              }
+
+              ::placeholder{
+                color:black;
+              }
+
+              .pay{
+                background-color:coral;
+               color :white;
+               border: 2px solid black;
+               font-size:larger;
+              }
+
+              button:active{
+                background-color:#FADBD8;
+              }
+
+        </style>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
+    </head>
+    <body background="78.webp" background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%>
+        <h1>Golden Opportunity to Create T-Shirts with Your Favourite tagline!!</h1>
+        <marquee class="bgcolor" behavior="" direction="Right">Please do Use this opportunity!</marquee>
+        <marquee class="bgcolor" behavior="" direction="Right">Contact: 89678676 Email: Soulstore@gmail.com</marquee>
+        <img src="funny.webp" alt="White-T-Shirt" width="1300px" height="300px">
+        
+        
+        <hr>
+        <h2><em>Some of our Illustrative T-Shirt designs are as follows:-</em></h2>
+        <img src="1.webp" alt="" width="300px" height="300px">
+        <img src="2.webp" alt="" width="250px" height="300px">
+        <img src="3.jpg"  alt="" width="310px" height="300px">
+        <img src="4.jpg"  alt="" width="310px" height="300px">
+        
+        
+        
+        
+        <hr>
+        <h1>Please Select your gender:</h1>
+        <p>
+        <input type="radio" name="gender" value="Male">
+        <label for="gender">Male</label>
+        </p>      
+        <p>
+        <input type="radio" name="gender" value="Female">
+        <label for="gender">Female</label>
+        </p>   
+        <p>
+            <input type="radio" name="gender" value="Other">
+            <label for="gender">Other</label>
+            </p>   
+            
+            
+        <button type="submit">Select</button>
+        <hr>
+        <h2>Select a Size:</h2>
+        <select name="Size" id="">Size
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+        <option value="XXXL">XXXL</option>
+        </select>
+        <br></br>
+        <li>Small: 20 inches</li>
+
+                 <meter id="fuel"
+                  min="0" max="100"
+                  low="33" high="66" optimum="80"
+                  value="20">
+               at 20/100
+               </meter>
+
+               <li>Medium: 30 inches</li>
+
+               <meter id="fuel"
+                min="0" max="100"
+                low="33" high="66" optimum="80"
+                value="40">
+             at 40/100
+             </meter>
+
+             <li>Large: 40 inches</li>
+
+             <meter id="fuel"
+              min="0" max="100"
+              low="33" high="66" optimum="80"
+              value="60">
+           at 60/100
+           </meter>
+
+           <li>XL: 45 inches</li>
+
+           <meter id="fuel"
+            min="0" max="100"
+            low="33" high="66" optimum="80"
+            value="80">
+         at 80/100
+         </meter>
+
+         <li>XXL: 50 inches</li>
+
+                 <meter id="fuel"
+                  min="0" max="100"
+                  low="33" high="66" optimum="80"
+                  value="90">
+               at 90/100
+                  </meter>
+
+        <h2>Select a Color</h2>
+        <form>
+            <fieldset>
+              <legend>Choose your favorite T-Shirt Colour</legend>
+          
+              <input type="color" id="kraken" name="monster">
+              <br/>
+              
+              
+            </fieldset>
+          </form>
+          
+          <br></br>
+          
+
+        <div class="preference">
+            <label for="cheese">Do you like any other colour?</label>
+            <input type="checkbox" name="cheese" id="cheese">
+        </div>
+        <hr>
+        <h2>Enter Your Required T-shirt Colour :</h2>
+        <p><label for="tagline">T-Shirt Colour:</label>
+        <input type="text" name="tagline" id="" placeholder="Enter Your Required Colour Here" required></p>
+        
+        <h2>Please Enter Your Required Tagline:</h2>
+        <p><label for="tagline">Tagline:</label>
+        <input type="text" name="tagline" id="" placeholder="Enter Your Tagline Here" required></p>
+        <hr>
+        <h2>Please Enter The Number of T-Shirts You Require: </h2>
+        <p>
+            <label for="quantity">Select:</label>
+            <input type="number" name="quantity" min="1" max="25" step="1">
+        </p>
+
+        <table border = "17">
+            <caption><h4>Quantity Of T-shirts Available</h4></caption>
+               <tr>
+                 <td>Nike</td>
+                 <td>Adidas</td>
+                 <td>Puma</td>
+               </tr>
+               <tr>
+                 <td>46757</td>
+                 <td>1345</td>
+                 <td>45745</td>
+               </tr>
+             </table>
+
+        <hr>
+        <h2>Please Provide Us Your Personal Details</h2>
+
+
+
+        <!-- <p><label for="Name">Name:</label>
+        <input type="text" name="Name" id="" placeholder="Enter Your Full Name Here" required></p>  
+        <p><label for="Name">Address:</label>
+        <input type="text" name="Name" id="" placeholder="Enter Your Address Here" required></p>  
+
+        <p><label for="Name">Contact No:</label>
+        <input type="tel" name="Name" id="" placeholder="0123456789" pattern="[0-9]{10}"  required></p>  
+
+        <p><label for="Name">Email- ID: </label>
+          <input pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$" type="email" name="Name" id="" placeholder="Enter Your Email-ID Here" required />
+          </p>   -->
+        
+
+
+          <form action="" id="myForm" name="myForm" enctype="multipart/form-data" method="post">
+            <!-- <div class="head">
+                <h2>Details</h2>
+                <p><b>Please fill the Details:</b></p>
+                <img class="logo" width="250px"
+                    src="https://prismic-io.s3.amazonaws.com/rushordertees-web/010abaed-4acc-45ac-996c-090557d5a142_2-Carefully-consider-color.jpg"
+                    alt=""><br><br>
+            </div> -->
+            <h4>Perks of buying from us are:</h4>
+            <ul class="hello">
+                <li>Quick delievry</li>
+                <li>Premium Product</li>
+                <li>Affordable rates</li>
+            </ul>
+            <label for="fname">Enter Name:</label><br>
+            <input type="text" name="fname" id="fname"><br><br>
+            <label for="product">Enter Address:</label><br>
+            <input type="text" name="product" id="tagline"><br><br>
+            <label for="Number">Mobile Number:</label><br>
+            <input type="text" name="Number" id="tagline"><br><br>
+    
+            <label for="items">Select Product:</label><br>
+            <select id="items" name="items">
+                <option value="Shirts">Shirt</option>
+                <option value="T-Shirt">T-Shirt</option>
+                <option value="Kurta">Kurta</option>
+                <option value="Denim">Denim</option>
+            </select><br><br>
+    
+            <label for="type">Choose Type:</label><br>
+            <input type="radio" id="Full sleeves" name="type" value="Full sleeves">
+            <label for="Full sleeves">Full sleeves</label><br>
+            <input type="radio" id="sleeves" name="type" value="sleeves">
+            <label for="sleeves">sleeves</label><br>
+            <input type="radio" id="No sleeves" name="type" value="No sleeves">
+            <label for="No sleeves">No sleeves</label><br><br>
+    
+            <!-- <label for="Color">Select Color:</label><br>
+            <select id="Color" name="Color">
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+                <option value="White">White</option>
+                <option value="Black">Black</option>
+            </select><br><br> -->
+    
+            <!-- <label for="Coupons">Any Coupons: </label><br>
+            <select id="Coupons" name="Coupons">
+                <option value="Diwali Offer">Diwali Offer</option>
+                <option value="20% Off">20% Off</option>
+                <option value="10% off">10% Off</option>
+                <option value="None">None</option>
+            </select><br><br>
+    
+            <label for="fee">Your total amount: <strong>Rs.650/-</strong></label><br><br>
+            <span>Our official Website link:</span>
+            <nav>
+                <a
+                    href="https://www.amazon.in/?&ext_vrnc=hi&tag=googhydrabk1-21&ref=pd_sl_nxqtetlae_e&adgrpid=60571832564&hvpone=&hvptwo=&hvadid=486387378181&hvpos=&hvnetw=g&hvrand=5429964627140638042&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9040246&hvtargid=kwd-296458789801&hydadcr=14452_2154371&gclid=Cj0KCQjwuaiXBhCCARIsAKZLt3nhbKNjdaT7Ann7pfmUoJ4R7vo4MiZ08aSAi2pOTAswtfesVsGO0BgaAjFFEALw_wcB">Amazon
+                </a>
+            </nav><br><br> -->
+    
+            <label for="payment_options">Payment Options:</label>
+            <br />
+            <div class="options">
+                <i class="fa fa-credit-card" aria-hidden="true"></i>
+                <input type="radio" id="cc" name="payment" value="Credit/Debit Card" />
+                <label for="cc">Credit/Debit Card</label> <br />
+                <i class="fa fa-google-wallet"></i>
+                <input type="radio" id="upi" name="payment" value="UPI" />
+                <label for="upi">UPI</label> <br />
+                <i class="fa fa-paypal"></i>
+                <input type="radio" id="crypto" name="payment" value="Crypto" />
+                <label for="crypto">Crypto-Wallet</label>
+            </div>
+            <br>
+            <label for="Delivery">Delivery Date</label>
+          
+            <input type="date" id="Delivery" required name="Delivery">
+            <!-- <span>Address:</span>
+            <p>VESIT<br>
+                Chembur,Mumbai</p> -->
+            <div class="eg">
+                <hr>
+                <button class="btn" type="submit" onclick="validateForm(this.form)">Confirm</button>
+        </form>
+        <!-- <p><label for="Name">Payment Type:</label>
+        <p><select name="" style="background-color:dimgray; color :white; font-size:larger;">Payment
+            <option value="" class="pay">Debit Card</option>
+            <option value="" class="pay">Credit Card</option>
+            <option value="Visa" class="pay">Net Banking</option>
+            <option value="Visa" class="pay">Cash on Delivery</option>
+        </select>
+        </p> -->
+        <!-- <hr>
+        <button type="submit">Confirm Order</button> -->
+    </body>
+    <script>
+      function validateForm(form) {
+          let x = document.forms["myForm"]["fname"].value;
+          if (x == "") {
+              alert("Name must be filled out");
+              return false;
+          }
+          let y = document.forms["myForm"]["product"].value;
+          if (y == "") {
+              alert("Address must be filled out");
+              return false;
+          }
+          if (document.forms["myForm"]["payment"].value == "") {
+              alert("Please complete payment procedure");
+              return false;
+          }
+          if (document.forms["myForm"]["type"].value == "") {
+              alert("Please Select type of shirt");
+              return false;
+          }
+          
+          if (document.forms["myForm"]["Number"].value.length >10 || document.forms["myForm"]["Number"].value.length <10 ) {
+              alert("Enter Valid Number");
+              return false;
+          }
+          var doc = new jsPDF();
+          var pret = [];
+          alert("Form Submitted");
+          doc.setFontSize(12);
+          doc.text(100, 25, "Invoice");
+          doc.text(15, 55, "Size: " + document.forms["myForm"]["type"].value);
+          doc.text(15, 35, "Name: " + document.forms["myForm"]["fname"].value);
+          doc.text(15, 75, "Payment: " + document.forms["myForm"]["payment"].value);
+          doc.text(15, 65, "Address: " + document.forms["myForm"]["product"].value);
+          doc.text(15, 45, "Product Type: " + document.forms["myForm"]["items"].value);
+          doc.text(15, 95, "Mobile Number: " + document.forms["myForm"]["Number"].value);
+          const d = new Date();
+          doc.text(15, 85, "Date: " + d.getDay() + "-" + d.getMonth() + "-" + d.getFullYear());
+          doc.save("Invoice" + ".pdf");
+      }
+  </script>
+</html>
